@@ -27,8 +27,14 @@ h1{
     border: outset;
     
 }
+
 #functions > button:hover {
     border: inset;
+}
+
+#functions > button:active {
+    background-color: #aaa;
+    color: #555;
 }
 
 #result{
