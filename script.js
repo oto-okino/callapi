@@ -11,12 +11,12 @@ function testFunction(functionUrl) {
     let request = new XMLHttpRequest();
     request.open('GET', functionUrl, true);
 
-    request.onload = () => {
+    request.onload = function () {
         let data = this.response;
         result.textContent = data
     }
 
-    request.onerror = () => {
+    request.onerror = function () {
         result.textContent = "Error";
     }
     
@@ -34,12 +34,12 @@ function testFunctionAny(functionUrl) {
 
     request.open('GET', functionUrl, true);
 
-    request.onload = () => {
+    request.onload = function () {
         let data = this.response;
         result.textContent = data;
     }
 
-    request.onerror = () => {
+    request.onerror = function () {
         result.textContent = "Error";
     }
     
