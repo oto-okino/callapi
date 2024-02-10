@@ -9,10 +9,11 @@
 <body>
     <h1>test</h1>
     <h2 class="default-header">functions</h2>
-    <div id="functions">
-        <button id="function1" onclick="testFunction(function1)">https://azkinofuncpytimeout.azurewebsites.net/api/HttpTrigger1</button>
-        <button id="function2" onclick="testFunction(function2)">https://azkinofuncpytimeout.azurewebsites.net/api/HttpTrigger1?num=100</button>
-        <button id="function3" onclick="testFunction(function3)">https://azkinofuncpytimeout.azurewebsites.net/api/HttpTrigger1?num=1000</button>
+    <div id="functions"><!--    ボタンのテキストに URL を入れる      -->
+        <button id="function1" onclick="testFunction(function1)">functionUrl1</button>
+        <button id="function2" onclick="testFunction(function2)">functionUrl2</button>
+        <button id="function3" onclick="testFunction(function3)">functionUrl1</button>
+        <!--    input 版      -->
         <input id="input-text" type="text"><input type="submit" value="submit" onclick="testFunctionAny(functionAny)">
     </div>
     <h2 class="default-header">result</h2>
