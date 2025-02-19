@@ -25,6 +25,8 @@ h1{
 
 #input-text {
     margin-right: 0.5rem;
+    width: 30rem;
+    max-width: 100%;
 }
 
 #result{
