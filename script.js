@@ -1,6 +1,6 @@
-let function1 = document.getElementById("function1").textContent;
-let function2 = document.getElementById("function2").textContent;
-let function3 = document.getElementById("function3").textContent;
+// let function1 = document.getElementById("function1").textContent;
+// let function2 = document.getElementById("function2").textContent;
+// let function3 = document.getElementById("function3").textContent;
 let functionAny = document.getElementById("input-text").value;
 
 let result = document.getElementById("result");
